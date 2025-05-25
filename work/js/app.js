@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tableprice.textContent = data.price ;
             productTable.appendChild( tableprice );
 
-            const tabledescription = document.createElement('td');//表のid説明列データ(情報）
+            const tabledescription = document.createElement('td');//表の説明列データ(情報）
             tabledescription.textContent = data.description ;
             productTable.appendChild( tabledescription );
         }
