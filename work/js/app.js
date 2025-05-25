@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const table = document.createElement('tr');//表の行
             productTable.appendChild(table); // 表の中に４個の「tr」（行）ができる
 
-            const tableid = document.createElement('td');//表のIDID列データ(情報）
+            const tableid = document.createElement('td');//表のID列データ(情報）
             tableid.textContent = data.id ;
             productTable.appendChild( tableid );
 
